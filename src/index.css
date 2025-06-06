@@ -7,6 +7,7 @@ body {
   height: auto;
   overflow-y: scroll;
   overflow-x: hidden;
+  scrollbar-gutter: stable overlay;
 }
 
 ::-webkit-scrollbar {

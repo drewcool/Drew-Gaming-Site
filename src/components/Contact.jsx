@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from './Button'
+import AnimatedTitle from './AnimatedTitle'
 
 const ImageClipBox = ({ src, clipClass}) => {
   return (
@@ -39,8 +40,15 @@ const Contact = () => {
           <p className='font-general text-[10px]'>
             Join Drew
           </p>
+          
 
-          <p className='special-font font-zentry mt-10 w-full text-5xl leading-[0.9] md:text-[6rem]'>Let's b<b>u</b>ild the <br /> new er<b>a</b> of <br /> g<b>a</b>ming t<b>o</b>gether</p>
+          <AnimatedTitle
+          title = "Let's b<b>u</b>ild the <br /> new er<b>a</b> of <br /> g<b>a</b>ming t<b>o</b>gether"
+          sectionId = '#contact'
+          containerClass= "special-font font-zentry mt-10 w-full text-5xl leading-[0.9] md:text-[6rem]"
+         />
+
+          {/* <p className='special-font font-zentry mt-10 w-full text-5xl leading-[0.9] md:text-[6rem]'>Let's b<b>u</b>ild the <br /> new er<b>a</b> of <br /> g<b>a</b>ming t<b>o</b>gether</p> */}
 
           <Button title="contact us"
           containerClass="mt-10 cursor-pointer"
