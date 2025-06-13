@@ -117,8 +117,8 @@ const Hero = () => {
          className='absolute left-0 top-0 size-full object-cover object-center'
           />
 
-
-        //TEXT
+          
+                  
 
           <div>
            <h1 className='special-font uppercase text-9xl absolute bottom-5 right-5 z-40 text-blue-75 hero-heading font-bruce'>
